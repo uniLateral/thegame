@@ -1,0 +1,19 @@
+
+print("Your soldier is surrounded by a massive army of opponents.")
+print("Your soldier pulls out his gun for the last fight of his life.\n")
+
+health = 10
+trolls = 0
+damage = 3
+
+while health  > 0:
+    trolls += 1
+    health -= damage
+
+    print("Your soldier jumps and defeats an opponent, " \
+          "but takes", damage, "damage points.\n")
+
+print("Your soldier fought well and defeated", trolls, "opponents.")
+print("But unfortunately, your soldier is no more.")
+
+input("\n\nPress the enter key to exit.")
