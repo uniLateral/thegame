@@ -30,3 +30,5 @@ B = Tkinter.Button(top, text ="play", command = helloCallBack)
 
 B.pack()
 top.mainloop()
+
+Print("delete this when you look at the button  😿")
