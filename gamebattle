@@ -17,3 +17,16 @@ print("Your soldier fought well and defeated", trolls, "opponents.")
 print("But unfortunately, your soldier is no more.")
 
 input("\n\nPress the enter key to exit.")
+
+import Tkinter
+import tkMessageBox
+
+top = Tkinter.Tk()
+
+def helloCallBack():
+   tkMessageBox.showinfo( "Hello Python", "Hello World")
+
+B = Tkinter.Button(top, text ="play", command = helloCallBack)
+
+B.pack()
+top.mainloop()
