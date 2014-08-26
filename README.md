@@ -1,3 +1,3 @@
-thegame
+Game
 =======
-This Game is a work in progress. Coming out in 2017.
+This game is a work in progress. Coming out in 2017.
